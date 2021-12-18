@@ -1,9 +1,6 @@
 (function() {
     'use strict';
 
-    var weatherAPIUrlBase = 'https://publicdata-weather.firebaseio.com/';
-
-
     var injectedForecast = {
         key: 'newyork',
         label: 'New York, NY',
@@ -30,6 +27,8 @@
             ]
         }
     };
+
+    var weatherAPIUrlBase = 'https://publicdata-weather.firebaseio.com/';
 
     var app = {
         isLoading: true,
@@ -179,12 +178,8 @@
     };
 
     app.saveSelectedCities = function() {
-        window.localforage.setItem("selected Cities", app.selectedCities)
-    }
-
-
-    app.updateForecastCard(injectedForecast);
-
+        window.localforage.setItem('selectedCities', app.selectedCities);
+    };
 
     document.addEventListener('DOMContentLoaded', function() {
         window.localforage.getItem('selectedCities', function(err, cityList) {
@@ -200,8 +195,8 @@
                 ];
                 app.saveSelectedCities();
             }
-        })
-    })
+        });
+    });
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
