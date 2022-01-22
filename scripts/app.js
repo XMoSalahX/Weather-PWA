@@ -17,13 +17,13 @@
         },
         daily: {
             data: [
-                { icon: 'clear-day', temperatureMax: 55, temperatureMin: 34 },
-                { icon: 'rain', temperatureMax: 55, temperatureMin: 34 },
-                { icon: 'snow', temperatureMax: 55, temperatureMin: 34 },
-                { icon: 'sleet', temperatureMax: 55, temperatureMin: 34 },
-                { icon: 'fog', temperatureMax: 55, temperatureMin: 34 },
-                { icon: 'wind', temperatureMax: 55, temperatureMin: 34 },
-                { icon: 'partly-cloudy-day', temperatureMax: 55, temperatureMin: 34 }
+                { icon: '../images/clear-day', temperatureMax: 55, temperatureMin: 34 },
+                { icon: '../images/rain', temperatureMax: 55, temperatureMin: 34 },
+                { icon: '../images/snow', temperatureMax: 55, temperatureMin: 34 },
+                { icon: '../images/sleet', temperatureMax: 55, temperatureMin: 34 },
+                { icon: '../images/fog', temperatureMax: 55, temperatureMin: 34 },
+                { icon: '../images/wind', temperatureMax: 55, temperatureMin: 34 },
+                { icon: '../images/partly-cloudy-day', temperatureMax: 55, temperatureMin: 34 }
             ]
         }
     };
