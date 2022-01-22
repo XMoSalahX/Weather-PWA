@@ -18,7 +18,7 @@
         "src": "images/icons/icon-144x144.png",
         "sizes": "144x144",
         "type": "image/png",
-        "purpose": "any maskable"
+
     }, {
         "src": "images/icons/icon-152x152.png",
         "sizes": "152x152",
@@ -38,7 +38,8 @@
     }, {
         "src": "images/icons/icon-512x512.png",
         "sizes": "512x512",
-        "type": "image/png"
+        "type": "image/png",
+        "purpose": "any maskable"
     }],
     "background_color": "#3E4EB8",
     "theme_color": "#2F3BA2",
