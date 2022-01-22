@@ -1,7 +1,7 @@
 {
     "name": "Weather",
     "short_name": "Weather",
-    "start_url": "index.html?hs=true",
+    "start_url": "/index.html",
     "icons": [{
         "src": "images/icons/icon-48x48.png",
         "sizes": "48x48",
