@@ -200,7 +200,7 @@
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker
-            .register('../sw.js')
+            .register('../../Weather-PWA/sw.js')
             .then(function() {
                 console.log('Service Worker Registered');
             });
