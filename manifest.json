@@ -1,8 +1,8 @@
 {
     "name": "Weather",
     "short_name": "Weather",
-    "start_url": "Weather-PWA/index.html",
-    "scope": "https://xmosalahx.github.io/",
+    "start_url": "/index.html",
+    "scope": "https://xmosalahx.github.io/Weather-PWA",
     "icons": [{
         "src": "images/icons/icon-48x48.png",
         "sizes": "48x48",
