@@ -1,0 +1,26 @@
+{
+  "name": "mopwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sw.js",
+  "dependencies": {
+    "localforage": "^1.10.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "sw-precache": "^5.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XMoSalahX/Weather-PWA.git"
+  },
+  "author": "Mohammed Salah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XMoSalahX/Weather-PWA/issues"
+  },
+  "homepage": "https://github.com/XMoSalahX/Weather-PWA#readme"
+}
