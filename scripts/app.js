@@ -17,13 +17,7 @@
         },
         daily: {
             data: [
-                { icon: '../../Weather-PWA/images/clear-day', temperatureMax: 55, temperatureMin: 34 },
-                { icon: '../../Weather-PWA/images/rain', temperatureMax: 55, temperatureMin: 34 },
-                { icon: '../../Weather-PWA/images/snow', temperatureMax: 55, temperatureMin: 34 },
-                { icon: '../../Weather-PWA/images/sleet', temperatureMax: 55, temperatureMin: 34 },
-                { icon: '../../Weather-PWA/images/fog', temperatureMax: 55, temperatureMin: 34 },
-                { icon: '../../Weather-PWA/images/wind', temperatureMax: 55, temperatureMin: 34 },
-                { icon: '../../Weather-PWA/images/partly-cloudy-day', temperatureMax: 55, temperatureMin: 34 }
+
             ]
         }
     };
