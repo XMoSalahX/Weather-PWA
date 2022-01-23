@@ -4,10 +4,10 @@ var gulp = require("gulp"),
 gulp.task("generate-sw", function() {
     var swOptions = {
         staticFileGlobs: [
-            './*.html',
-            './images/**/*.*',
-            './scripts/*.*',
-            './styles/*.*'
+            '../Weather-PWA/*.html',
+            './Weather-PWA/images/**/*.*',
+            './Weather-PWA/scripts/*.*',
+            './Weather-PWA/styles/*.*'
         ],
         stripPrefix: '.',
         runtimeCaching: [{
